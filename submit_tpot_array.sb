@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --array=0-3
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=01:00:00
+#SBATCH --output=logs/tpot_%A_%a.out
+#SBATCH --error=logs/tpot_%A_%a.err
+
+set -euo pipefail # Force quit if there is an error.
+
+module purge
+module load Miniforge3
+conda activate ~/CMSE802_HPCC/data_driven_modeling/envs
+
+SEARCH_SEED=$((802 + SLURM_ARRAY_TASK_ID))
+OUTPUT_DIR="results/seed-${SEARCH_SEED}"
+
+python run_tpot_array.py \
+  --search-seed "${SEARCH_SEED}" \
+  --split-seed 802 \
+  --max-time-mins 5 \
+  --output-dir "${OUTPUT_DIR}"

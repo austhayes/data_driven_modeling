@@ -1,0 +1,5 @@
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/stopit/__init__.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/stopit/__init__.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+0it [00:00, ?it/s]Generation: : 0it [00:00, ?it/s]Generation: : 1it [01:14, 74.41s/it]Generation: : 2it [02:41, 81.74s/it]Generation: : 3it [04:49, 103.01s/it]Generation: : 4it [05:00, 66.64s/it] Generation: : 4it [05:00, 75.12s/it]

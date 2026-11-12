@@ -1,0 +1,7 @@
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/stopit/__init__.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/stopit/__init__.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+0it [00:00, ?it/s]Generation: : 0it [00:00, ?it/s]Generation: : 1it [01:56, 116.70s/it]Generation: : 2it [05:10, 162.04s/it]Generation: : 2it [05:10, 155.24s/it]
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(

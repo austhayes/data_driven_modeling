@@ -1,0 +1,9 @@
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/stopit/__init__.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/distributed/node.py:195: UserWarning: Port 8787 is already in use.
+Perhaps you already have a cluster running?
+Hosting the HTTP server on port 44515 instead
+  warnings.warn(
+/mnt/home/hayesaus/CMSE802_HPCC/data_driven_modeling/envs/lib/python3.12/site-packages/stopit/__init__.py:10: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+0it [00:00, ?it/s]Generation: : 0it [00:00, ?it/s]Generation: : 1it [01:26, 86.10s/it]Generation: : 2it [02:48, 84.21s/it]Generation: : 3it [04:21, 87.82s/it]Generation: : 4it [05:01, 69.17s/it]Generation: : 4it [05:01, 75.42s/it]
